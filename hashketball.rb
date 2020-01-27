@@ -226,4 +226,3 @@ def largest_shoes
   end
   max_shoe_player
 end 
-
