@@ -215,10 +215,9 @@ def largest_shoes
     team_data.each do |key, data|
       if key == :players
         data.each do |player_hash|
-            if player_hash[:shoe] > max_shoe
-              max_shoe = player_hash[:shoe]
-              max_shoe_player = player_hash[:player_name]
-            end 
+          if player_hash[:shoe] > max_shoe
+            max_shoe = player_hash[:shoe]
+            max_shoe_player = player_hash[:player_name]
           end 
         end 
       end
